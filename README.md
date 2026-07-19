@@ -64,7 +64,7 @@ MONGODB_URI=mongodb://127.0.0.1:27017/evoting
 JWT_SECRET=supersecretkey_for_evoting_system
 ```
 
-### Module Explanations
+## Module Explanations
 - **Backend Components**: `models` handle the schema for MongoDB. `controllers` parse incoming connections and manage application business logic. The `blockchain` module operates statelessly, maintaining an in-memory linked-list secured by SHA-256. 
 - **Frontend Components**: All dynamic actions invoke an API utilizing `axios` wrapped loosely with a React `useContext` for centralized global Session Management.
 
